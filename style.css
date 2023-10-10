@@ -208,8 +208,6 @@ section {
   gap: 1rem;
 }
 
-/*Icon*/
-
 .icon {
   cursor: pointer;
   height: 2rem;
@@ -374,8 +372,6 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/* Contact Section */
-
 #Contacts {
   display: flex;
   justify-content: center;
@@ -412,15 +408,4 @@ article .icon {
 
 .email-icon {
   cursor: default;
-}
-
-/* Footer Section */
-
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
 }
