@@ -261,17 +261,20 @@ section {
 }
 
 #about {
-  position: relative;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .about-container {
-  gap: 2rem;
+  gap: 3rem;
   margin-bottom: 2rem;
-  margin-top: column;
+  margin-top: row;
+  margin: auto;
 }
 
 .about-details-container {
-  justify-content: center;
+  justify-content: baseline;
+  font-size: 90%;
   flex-direction: column;
 }
 
@@ -281,14 +284,12 @@ section {
 }
 
 .about-pic {
-  border-radius: 3rem;
-  border-image-width: auto;
+  border-radius: 5rem;
 }
 
 .details-container {
-  padding: 8rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  flex: 1;
+  padding: 2rem;
+  font-family: sans-serif;
   background: white;
   border-radius: 3rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -315,6 +316,7 @@ section {
 
 #Experience {
   position: relative;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .experience-sub-title {
@@ -350,8 +352,9 @@ article .icon {
   cursor: default;
 }
 
-#project {
+#Projects {
   position: relative;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .color-container {
@@ -361,12 +364,13 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 .project-title {
   margin: 1rem;
+
   color: black;
 }
 
@@ -389,7 +393,6 @@ article .icon {
   border: rgb(163, 163, 163) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background-image: url(Icon5.png);
-
   margin: 2rem;
   padding: 0.5rem;
 }
