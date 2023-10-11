@@ -161,14 +161,14 @@ section {
 
 #profile {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 10rem;
   height: 80vh;
 }
 
 .section-container {
   display: flex;
-  height: 200px;
+  height: 100px;
   width: 200px;
   margin: auto 0;
 }
@@ -262,7 +262,6 @@ section {
 
 #about {
   display: block;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .about-container {
@@ -275,12 +274,14 @@ section {
 .about-details-container {
   justify-content: baseline;
   font-size: 90%;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .about-container,
 .about-details-container {
   display: flex;
+  margin-right: 10%;
+  font-size: 90%;
 }
 
 .about-pic {
@@ -316,7 +317,6 @@ section {
 
 #Experience {
   position: relative;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .experience-sub-title {
