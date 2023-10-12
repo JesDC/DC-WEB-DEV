@@ -161,9 +161,10 @@ section {
 
 #profile {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   gap: 10rem;
   height: 80vh;
+  box-shadow: 0 7px 8px 10px rgba(0, 0, 0, 0.2);
   border: 10px;
 }
 
@@ -201,7 +202,9 @@ section {
 
 .title {
   font-size: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  box-shadow: 0 1.5px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 #socials-container {
