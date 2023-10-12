@@ -321,6 +321,7 @@ section {
 
 #Experience {
   position: relative;
+  margin-top: 5%;
 }
 
 .experience-sb-tle {
@@ -359,6 +360,7 @@ article .icon {
 
 #Projects {
   position: relative;
+  margin-top: 5%;
   font-family: "Courier New", Courier, monospace;
 }
 
