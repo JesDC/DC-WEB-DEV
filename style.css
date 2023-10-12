@@ -148,7 +148,7 @@ a:hover {
 }
 
 section {
-  padding-top: 4vh;
+  padding-top: 2vh;
   height: 96vh;
   margin: 0 10 rem;
   box-sizing: border-box;
@@ -164,12 +164,14 @@ section {
   justify-content: right;
   gap: 10rem;
   height: 80vh;
+  border: 10px;
 }
 
 .section-container {
   display: flex;
   height: 100px;
   width: 200px;
+  border: 10px;
   margin: auto 0;
 }
 
@@ -266,7 +268,7 @@ section {
 
 .about-container {
   gap: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   margin-top: row;
   margin: auto;
 }
@@ -280,27 +282,29 @@ section {
 .about-container,
 .about-details-container {
   display: flex;
-  margin-right: 10%;
+  margin-right: 20%;
   font-size: 90%;
 }
 
 .about-pic {
-  border-radius: 5rem;
+  border-radius: 10rem;
+  border-color: rgb(57, 58, 58);
 }
 
 .details-container {
   padding: 2rem;
   font-family: sans-serif;
+  padding: 3%;
   background: white;
-  border-radius: 3rem;
+  border-radius: 1rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
 .section-container {
-  gap: 14rem;
-  height: 80%;
+  gap: 18rem;
+  height: 50%;
 }
 
 .section__pic-container {
@@ -311,7 +315,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: 5rem;
   bottom: 2.5rem;
 }
 
@@ -323,7 +327,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 1000;
   font-size: 1.7rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .experience-details-container {
@@ -336,8 +340,8 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2rem;
+  flex-direction:row-reverse;
+  gap: 4rem;
   justify-content: space-around;
 }
 
@@ -364,14 +368,13 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 100%;
+  border-radius: 1rem;
+  width: 120%;
   height: 100%;
 }
 
 .project-title {
-  margin: 1rem;
-
+  margin: 4rem;
   color: black;
 }
 
@@ -393,9 +396,8 @@ article .icon {
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background-image: url(Icon5.png);
   margin: 2rem;
-  padding: 0.5rem;
+  padding: 3rem;
 }
 
 .contact-detail-container {
