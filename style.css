@@ -386,7 +386,7 @@ article .icon {
   height: 70vh;
 }
 
-.contact-info-upper-container {
+.contact-detail-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
@@ -397,7 +397,7 @@ article .icon {
   padding: 0.5rem;
 }
 
-.contact-info-container {
+.contact-detail-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -405,7 +405,7 @@ article .icon {
   margin: 1rem;
 }
 
-.contact-info-container p {
+.contact-deatil-container p {
   font-size: medium;
 }
 
